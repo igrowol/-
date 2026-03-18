@@ -3,12 +3,24 @@
     cursor: pointer;
 }
 
+.body-container {
+    background-color: #ffe8f1;
+}
+
 .image-link img {
     width: 700px;
     height: auto;
     transition: transform 0.3s;
+    padding: 75px 500px;
 }
-    
+
 .image-link:hover img {
     transform: scale(1.05);
+}
+
+.h1 {
+    position:fixed;
+    text-align: center;
+    color: black;
+    padding: 0px 735px;
 }
