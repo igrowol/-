@@ -1,2 +1,14 @@
-.header
-{padding-right: 30px;}
+.image-link {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.image-link img {
+    width: 700px;
+    height: auto;
+    transition: transform 0.3s;
+}
+    
+.image-link:hover img {
+    transform: scale(1.05);
+}
