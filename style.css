@@ -1,4 +1,4 @@
-.image-link {
+.img {
     display: inline-block;
     cursor: pointer;
 }
@@ -7,20 +7,21 @@
     background-color: #ffe8f1;
 }
 
-.image-link img {
+.img {
     width: 700px;
     height: auto;
     transition: transform 0.3s;
-    padding: 75px 500px;
+    padding: 75px 600px;
 }
 
-.image-link:hover img {
+.img:hover{
     transform: scale(1.05);
 }
 
 .h1 {
-    position:fixed;
+    position:absolute;
     text-align: center;
+    text-transform: uppercase;
     color: black;
-    padding: 0px 735px;
+    padding: 0px 835px;
 }
