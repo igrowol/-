@@ -1,0 +1,23 @@
+body{
+    background-color: #BEBCC1;
+}
+
+ .img-container img {
+  position: absolute;
+  top: 80%;
+  left: 9.8%;
+  transform: translate(-50%, -50%);
+
+  height: 500px;
+  width: 400px;
+}
+
+.img-container-2 img {
+    height: 500px;
+    width: 500px;
+
+    position: absolute;
+    top: 20%;
+    left: 9.8%;
+    transform: translate(-50%, -50%);
+}
